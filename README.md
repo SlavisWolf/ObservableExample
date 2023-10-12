@@ -1,3 +1,3 @@
-# Observable example
+# Observable example(In progress)
  
  Masterclass taught by professor Julio Cesar Fernandez about the new 'Observable' pattern in SwiftUI to avoid using the old ObservableObject, ObservedObject, StateObject, EnvironmentObject... 
