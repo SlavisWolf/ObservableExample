@@ -1,0 +1,51 @@
+[
+    {
+        "id" : 1,
+        "firstName" : "Rozamond",
+        "lastName"  : "Willbourne",
+        "email"     : "rwillbourne@home.pl",
+        "gender"    : "Female",
+        "department" : "Training",
+        "avatar"    : "https://robohash.org/observableexample?set=set1"
+
+    },
+    {
+        "id" : 2,
+        "firstName" : "Pepe",
+        "lastName"  : "Lozano",
+        "email"     : "pepe@yahoo.es",
+        "gender"    : "Male",
+        "department" : "Business Development",
+        "avatar"    : "https://robohash.org/observableexample?set=set2"
+
+    },
+    {
+        "id" : 3,
+        "firstName" : "David",
+        "lastName"  : "García",
+        "email"     : "shaco@lol.es",
+        "gender"    : "Male",
+        "department" : "Marketing",
+        "avatar"    : "https://robohash.org/observableexample?set=set3"
+
+    },
+    {
+        "id" : 4,
+        "firstName" : "Rozalen",
+        "lastName"  : "Altozano",
+        "email"     : "alzanaica@spain.us",
+        "gender"    : "Female",
+        "department" : "Business Development",
+        "avatar"    : "https://robohash.org/observableexample?set=set4"
+
+    },
+    {
+        "id" : 5,
+        "firstName" : "Daniel",
+        "lastName"  : "Ibáñez",
+        "email"     : "danillo@gmail.com",
+        "gender"    : "Male",
+        "department" : "Business Development",
+        "avatar"    : "https://robohash.org/observableexample?set=set5"
+    }
+]

@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct ObservableExampleApp: App {
+    
+    @State var viewModel = ManagementViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(viewModel)
         }
     }
 }

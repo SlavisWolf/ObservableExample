@@ -8,17 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @Environment(ManagementViewModel.self) var viewModel
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        @Bindable var binding = viewModel
+        
+        NavigationStack {
+            List(viewModel.employeesLogic.employees) { employee in
+                NavigationLink(value: employee) {
+                    EmployeeCell(employee: employee)
+                }
+            }
+            .navigationTitle("Employees")
+            .navigationDestination(for: EmployeeModel.self) { employee in
+                EmployeeDetail(employee: employee)
+            }
         }
-        .padding()
+        .alert("Application error", isPresented: $binding.employeesLogic.showAlert) {
+            Text(viewModel.employeesLogic.errorMsg)
+        }
     }
 }
 
 #Preview {
     ContentView()
+        .environment(ManagementViewModel.preview)
 }
+
+

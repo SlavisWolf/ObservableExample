@@ -1,0 +1,152 @@
+[
+    {
+        "id" : 1,
+        "firstName" : "Rozamond",
+        "lastName"  : "Willbourne",
+        "email"     : "rwillbourne@home.pl",
+        "gender"    : "Female",
+        "department" : "Training",
+        "avatar"    : "https://robohash.org/observableexample?set=set1"
+
+    },
+    {
+        "id" : 2,
+        "firstName" : "Pepe",
+        "lastName"  : "Lozano",
+        "email"     : "pepe@yahoo.es",
+        "gender"    : "Male",
+        "department" : "Business Development",
+        "avatar"    : "https://robohash.org/observableexample?set=set2"
+
+    },
+    {
+        "id" : 3,
+        "firstName" : "David",
+        "lastName"  : "García",
+        "email"     : "shaco@lol.es",
+        "gender"    : "Male",
+        "department" : "Marketing",
+        "avatar"    : "https://robohash.org/observableexample?set=set3"
+
+    },
+    {
+        "id" : 4,
+        "firstName" : "Rozalen",
+        "lastName"  : "Altozano",
+        "email"     : "alzanaica@spain.us",
+        "gender"    : "Female",
+        "department" : "Business Development",
+        "avatar"    : "https://robohash.org/observableexample?set=set4"
+
+    },
+    {
+        "id" : 5,
+        "firstName" : "Daniel",
+        "lastName"  : "Ibáñez",
+        "email"     : "danillo@gmail.com",
+        "gender"    : "Male",
+        "department" : "Business Development",
+        "avatar"    : "https://robohash.org/observableexample?set=set5"
+
+    },
+    {
+        "id" : 6,
+        "firstName" : "Aiden",
+        "lastName"  : "Belthrod",
+        "email"     : "Belthrod@light.com",
+        "gender"    : "Male",
+        "department" : "Legal",
+        "avatar"    : "https://robohash.org/observableexample?set=set1"
+
+    },
+    {
+        "id" : 7,
+        "firstName" : "George",
+        "lastName"  : "Gutierrez",
+        "email"     : "ghpef@gmail.com",
+        "gender"    : "Male",
+        "department" : "Sales",
+        "avatar"    : "https://robohash.org/observableexample?set=set2"
+
+    },
+    {
+        "id" : 8,
+        "firstName" : "Carmen",
+        "lastName"  : "Gallegos",
+        "email"     : "carmeng@hotmail.es",
+        "gender"    : "Female",
+        "department" : "Human Resources",
+        "avatar"    : "https://robohash.org/observableexample?set=set3"
+
+    },
+    {
+        "id" : 9,
+        "firstName" : "Antonio",
+        "lastName"  : "Guzman",
+        "email"     : "guzmanspain@services.es",
+        "gender"    : "Male",
+        "department" : "Services",
+        "avatar"    : "https://robohash.org/observableexample?set=set4"
+
+    },
+    {
+        "id" : 10,
+        "firstName" : "Federico",
+        "lastName"  : "Jímenez",
+        "email"     : "lossantos@gmail.com",
+        "gender"    : "Male",
+        "department" : "Product Management",
+        "avatar"    : "https://robohash.org/observableexample?set=set5"
+
+    },
+    {
+        "id" : 11,
+        "firstName" : "Desmond",
+        "lastName"  : "Arigato",
+        "email"     : "desmong@gmail.com",
+        "gender"    : "Male",
+        "department" : "Sales",
+        "avatar"    : "https://robohash.org/observableexample?set=set1"
+
+    },
+    {
+        "id" : 12,
+        "firstName" : "Fernando",
+        "lastName"  : "Villanueva",
+        "email"     : "villanueva@gmail.com",
+        "gender"    : "Male",
+        "department" : "Research and Development",
+        "avatar"    : "https://robohash.org/observableexample?set=set2"
+
+    },
+    {
+        "id" : 13,
+        "firstName" : "Sergio",
+        "lastName"  : "Barja",
+        "email"     : "serbarja@hotmail.com",
+        "gender"    : "Male",
+        "department" : "Marketing",
+        "avatar"    : "https://robohash.org/observableexample?set=set3"
+
+    },
+    {
+        "id" : 14,
+        "firstName" : "Victoria",
+        "lastName"  : "Sabadell",
+        "email"     : "victoria@yahoo.com",
+        "gender"    : "Female",
+        "department" : "Support",
+        "avatar"    : "https://robohash.org/observableexample?set=set4"
+
+    },
+    {
+        "id" : 15,
+        "firstName" : "Julio",
+        "lastName"  : "César",
+        "email"     : "juliocesar@gmail.com",
+        "gender"    : "Male",
+        "department" : "Business Development",
+        "avatar"    : "https://robohash.org/observableexample?set=set5"
+
+    }
+]

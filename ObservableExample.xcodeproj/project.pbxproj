@@ -11,6 +11,17 @@
 		A902C35A2AD87C90006045D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A902C3592AD87C90006045D3 /* ContentView.swift */; };
 		A902C35C2AD87C92006045D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A902C35B2AD87C92006045D3 /* Assets.xcassets */; };
 		A902C35F2AD87C92006045D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A902C35E2AD87C92006045D3 /* Preview Assets.xcassets */; };
+		A95D29272ADB18F900257EA7 /* EmployeesDemo.json in Resources */ = {isa = PBXBuildFile; fileRef = A95D29262ADB18F900257EA7 /* EmployeesDemo.json */; };
+		A95D29292ADB1B1900257EA7 /* Employees.json in Resources */ = {isa = PBXBuildFile; fileRef = A95D29282ADB1B1900257EA7 /* Employees.json */; };
+		A95D292F2ADB2BED00257EA7 /* EmployeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95D292E2ADB2BED00257EA7 /* EmployeeModel.swift */; };
+		A95D29312ADB2C6D00257EA7 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95D29302ADB2C6D00257EA7 /* Gender.swift */; };
+		A95D29332ADB2D2600257EA7 /* Departmen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95D29322ADB2D2600257EA7 /* Departmen.swift */; };
+		A95D29352ADB3C3F00257EA7 /* PersistenceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95D29342ADB3C3F00257EA7 /* PersistenceInteractor.swift */; };
+		A95D29372ADB47AD00257EA7 /* PersistencePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95D29362ADB47AD00257EA7 /* PersistencePreview.swift */; };
+		A9B7F3E42ADC2FC1003BAC8E /* EmployeesLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B7F3E32ADC2FC1003BAC8E /* EmployeesLogic.swift */; };
+		A9B7F3E72ADC34AD003BAC8E /* ManagementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B7F3E62ADC34AD003BAC8E /* ManagementViewModel.swift */; };
+		A9B7F3E92ADC3DB4003BAC8E /* EmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B7F3E82ADC3DB4003BAC8E /* EmployeeCell.swift */; };
+		A9B7F3EB2ADC45AE003BAC8E /* EmployeeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B7F3EA2ADC45AE003BAC8E /* EmployeeDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		A902C3592AD87C90006045D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A902C35B2AD87C92006045D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A902C35E2AD87C92006045D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A95D29262ADB18F900257EA7 /* EmployeesDemo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EmployeesDemo.json; sourceTree = "<group>"; };
+		A95D29282ADB1B1900257EA7 /* Employees.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Employees.json; sourceTree = "<group>"; };
+		A95D292E2ADB2BED00257EA7 /* EmployeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeModel.swift; sourceTree = "<group>"; };
+		A95D29302ADB2C6D00257EA7 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		A95D29322ADB2D2600257EA7 /* Departmen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Departmen.swift; sourceTree = "<group>"; };
+		A95D29342ADB3C3F00257EA7 /* PersistenceInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceInteractor.swift; sourceTree = "<group>"; };
+		A95D29362ADB47AD00257EA7 /* PersistencePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistencePreview.swift; sourceTree = "<group>"; };
+		A9B7F3E32ADC2FC1003BAC8E /* EmployeesLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesLogic.swift; sourceTree = "<group>"; };
+		A9B7F3E62ADC34AD003BAC8E /* ManagementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementViewModel.swift; sourceTree = "<group>"; };
+		A9B7F3E82ADC3DB4003BAC8E /* EmployeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCell.swift; sourceTree = "<group>"; };
+		A9B7F3EA2ADC45AE003BAC8E /* EmployeeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +74,12 @@
 			isa = PBXGroup;
 			children = (
 				A902C3572AD87C90006045D3 /* ObservableExampleApp.swift */,
-				A902C3592AD87C90006045D3 /* ContentView.swift */,
-				A902C35B2AD87C92006045D3 /* Assets.xcassets */,
+				A95D292D2ADB2B9C00257EA7 /* Views */,
+				A9B7F3E52ADC3419003BAC8E /* ViewModels */,
+				A95D292B2ADB2AB900257EA7 /* Model */,
+				A95D292C2ADB2AEE00257EA7 /* ModelLogic */,
+				A95D292A2ADB2AA800257EA7 /* Interactor */,
+				A95D29252ADB14A100257EA7 /* Resources */,
 				A902C35D2AD87C92006045D3 /* Preview Content */,
 			);
 			path = ObservableExample;
@@ -62,9 +88,64 @@
 		A902C35D2AD87C92006045D3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				A95D29262ADB18F900257EA7 /* EmployeesDemo.json */,
 				A902C35E2AD87C92006045D3 /* Preview Assets.xcassets */,
+				A95D29362ADB47AD00257EA7 /* PersistencePreview.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A95D29252ADB14A100257EA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A95D29282ADB1B1900257EA7 /* Employees.json */,
+				A902C35B2AD87C92006045D3 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A95D292A2ADB2AA800257EA7 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A95D29342ADB3C3F00257EA7 /* PersistenceInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		A95D292B2ADB2AB900257EA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A95D292E2ADB2BED00257EA7 /* EmployeeModel.swift */,
+				A95D29302ADB2C6D00257EA7 /* Gender.swift */,
+				A95D29322ADB2D2600257EA7 /* Departmen.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A95D292C2ADB2AEE00257EA7 /* ModelLogic */ = {
+			isa = PBXGroup;
+			children = (
+				A9B7F3E32ADC2FC1003BAC8E /* EmployeesLogic.swift */,
+			);
+			name = ModelLogic;
+			sourceTree = "<group>";
+		};
+		A95D292D2ADB2B9C00257EA7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A902C3592AD87C90006045D3 /* ContentView.swift */,
+				A9B7F3E82ADC3DB4003BAC8E /* EmployeeCell.swift */,
+				A9B7F3EA2ADC45AE003BAC8E /* EmployeeDetail.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A9B7F3E52ADC3419003BAC8E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A9B7F3E62ADC34AD003BAC8E /* ManagementViewModel.swift */,
+			);
+			name = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A902C35F2AD87C92006045D3 /* Preview Assets.xcassets in Resources */,
+				A95D29292ADB1B1900257EA7 /* Employees.json in Resources */,
 				A902C35C2AD87C92006045D3 /* Assets.xcassets in Resources */,
+				A95D29272ADB18F900257EA7 /* EmployeesDemo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +220,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9B7F3E42ADC2FC1003BAC8E /* EmployeesLogic.swift in Sources */,
+				A95D29332ADB2D2600257EA7 /* Departmen.swift in Sources */,
+				A9B7F3E72ADC34AD003BAC8E /* ManagementViewModel.swift in Sources */,
+				A95D29312ADB2C6D00257EA7 /* Gender.swift in Sources */,
+				A95D292F2ADB2BED00257EA7 /* EmployeeModel.swift in Sources */,
 				A902C35A2AD87C90006045D3 /* ContentView.swift in Sources */,
 				A902C3582AD87C90006045D3 /* ObservableExampleApp.swift in Sources */,
+				A95D29352ADB3C3F00257EA7 /* PersistenceInteractor.swift in Sources */,
+				A95D29372ADB47AD00257EA7 /* PersistencePreview.swift in Sources */,
+				A9B7F3E92ADC3DB4003BAC8E /* EmployeeCell.swift in Sources */,
+				A9B7F3EB2ADC45AE003BAC8E /* EmployeeDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
